@@ -1,0 +1,402 @@
+﻿body 
+{
+	font-family: verdana;
+	color: #333333;
+	font-size: 11px;
+}
+
+
+A
+{
+	
+	text-decoration: none;
+	COLOR: #284775; 
+	FONT-FAMILY: verdana; 
+	TEXT-DECORATION: none;
+}
+
+A:hover
+{
+	text-decoration: none;
+	COLOR: #333333
+	
+}
+A:visited
+{
+	text-decoration:none;
+	COLOR: #284775;  
+}
+
+.linkButton
+{
+	font-size: 13px;
+	text-decoration: none;
+	COLOR: #284775; 
+	FONT-FAMILY: verdana; 
+	TEXT-DECORATION: none;
+}
+
+linkButton:hover
+{
+	text-decoration: none;
+	COLOR: #333333 
+	
+}
+linkButton:visited
+{
+	text-decoration:none;
+	COLOR: #284775;  
+}
+
+.normal
+{
+	font-size: 11px;
+}
+.containter
+{
+	padding: 5px;
+	border: solid 1px #d2d2d2;
+}
+
+.ruButton
+{
+    width:79px;
+    height:20px;
+    border:0;
+    font-size: 11px;
+    margin-left:0.8em;
+    padding:0;
+    background:url('images/ruButtonSmall.gif') 100% 0 no-repeat;
+    color:#000;
+    text-align:center;
+}
+
+.ruButtonLarge
+{
+    width:170px;
+    height:23px;
+    border:0;
+    font-size: 11px;
+    margin-left:0.8em;
+    padding:0;
+    background:url('images/ruButtonLarge.gif') 100% 0 no-repeat;
+    color:#000;
+    text-align:center;
+}
+
+
+
+.c
+{
+    width:79px;
+    height:20px;
+    border:0;
+    margin-left:0.8em;
+    padding:0;
+    background:url('Upload/ruButtonSmall.gif') 100% 0 no-repeat;
+    color:#000;
+    text-align:center;
+}
+
+.maskedInput
+{
+	border-bottom: inset 1px red; 
+	border-right: inset 1px #f3f3f3; 
+	border-left: inset 2px #f3f3f3; 
+	border-top: inset 2px #f3f3f3; 
+	font-family: Verdana; 
+	font-size: 11px;
+	
+	
+}
+
+
+.selectedGreen
+{
+    color: #006433;
+    font-weight: bold;
+}
+
+.selectedRed
+{
+    color: #8b0000;
+    font-weight: bold;
+}
+
+.selectedYellow
+{
+    color: #ff9900;
+    font-weight: bold;
+}
+
+.selectedBlue
+{
+    color: #059be9;
+    font-weight: bold;
+
+}
+
+
+
+.validation
+{
+	color: Red;
+	font-family:Verdana;
+
+}
+.fmContainer
+{
+	margin-top: 20px;
+	padding-top: 20px;
+	border: solid 1px black;
+	width: auto;
+	margin-bottom: 12px
+}
+.fmCommandFields
+{
+	padding-top: 20px;
+}
+
+.fmHead
+{
+	padding: 5px;
+	font-size: 16px;
+	font-family: Verdana,Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	text-align: center;
+	background-color: #e798a8;
+	font-weight: 600;
+	color: #333333;
+	
+}
+
+.fmHeadPink
+{
+	padding: 5px;
+	font-size: 16px;
+	font-family: Verdana,Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	text-align: center;
+	background-color: #ffdff4;
+	font-weight: 600;
+	color: #333333;
+	border-bottom: solid 1px #999999;
+	letter-spacing: 1px
+}
+
+
+.title
+{
+	
+	font-size: 24px; 
+	font-family: Verdana,Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	color: #E0E0E0;
+	
+}
+
+.head 
+{
+	color: #333333; /*orange*/
+	font-size: 16px; 
+	font-weight: bold;
+	font-family: Verdana,Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	padding-top:25px;
+}
+
+.sectionHead
+{
+	COLOR: #D2B48C; 
+	font-size: 14px;
+	FONT-FAMILY: Arial; 
+}
+
+
+
+
+
+
+.fmRow
+{
+	padding-top: 10px;
+}
+
+
+
+.fmFieldHeader
+{
+	font-weight: 600;
+	text-align: right;
+	padding-right: 5px;
+	padding-top: 10px;
+	vertical-align: middle;
+	
+
+}
+.fmFieldText
+{
+	
+	text-align: left;
+	color: Black;
+	vertical-align: text-top;
+	padding-top: 10px
+	
+}
+
+.fmTopPolstHeader
+{
+	font-weight: 600;
+	text-align: right;
+	padding-right: 5px;
+	padding-top: 5px;
+	vertical-align: text-top;
+	width: auto;
+	
+
+}
+.fmTopPolstText
+{
+	
+	text-align: left;
+	color: Black;
+	vertical-align: text-top;
+	padding-top: 5px
+	
+}
+
+.contentBorder
+{
+	border: solid 1px gray;
+	
+	
+}
+
+.innerFormPanel
+{
+	border: solid 1px #999999; 
+	padding-top: 5px; 
+	width: 750px;
+	font-size: smaller;
+}
+
+.innerFormPanelSmall
+{
+	border: solid 1px #999999; 
+	padding-top: 5px; 
+	width: 750px;
+	font-size: smaller;
+}
+
+
+.divLeftMetaData
+{
+	Width: 20%;
+	display: inline;
+	text-align: right;
+	padding-right: 5px;
+	padding-top: 10px;
+
+}
+.divCenterMetaData
+{
+	text-align: center;
+	padding-right: 5px;
+	padding-top: 10px;
+
+}
+.divRightMetaData
+{
+	Width: 80%;
+	display: inline;
+	text-align: left;
+	padding-top: 10px;
+	
+
+}
+
+.divCenterSurveyYears
+{
+	text-align: left;
+	padding-top: 10px;
+	padding-left:50px;
+
+}
+
+
+.mainMenu
+{
+	text-align: center;
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: 600;
+	
+	
+}
+
+
+
+.siteHeader
+{
+	text-align: left;
+	vertical-align:text-top;
+	padding-left: 20px;
+	
+	font-size: 1.5em;
+	color: #284775;
+	
+	
+}
+
+
+.loginHeader
+{
+	text-align: center;
+	width:100%;
+	vertical-align:text-top;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	font-size: 1.5em;
+	color: #284775;
+	
+	
+}
+#loginView
+{
+	text-align: right;
+	vertical-align:text-top;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	font-size: 12px;
+	color: #E0E0E0;
+	
+	
+}
+
+#loginView A
+{
+	color: #284775;
+}
+
+#loginView A:Hover
+{
+	color: #333333;
+}
+
+.polstViewText
+{
+	padding-left: 5px; 
+	line-height: 20px; 
+	font-weight: 600;
+}
+
+.polstViewTextHeightNormal
+{
+	padding-left: 5px;  
+	font-weight: 600;
+}
+
+.aomargins
+{height: 40px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px}
+
+.formTextBox 
+{
+    border-bottom: solid 1px #d2d2d2; border-right: solid 1px #d2d2d2; border-left: solid 1px #d2d2d2; border-top: outset 2px #d2d2d2; font-family: Verdana; font-size: 11px; color: #333333"
+}
+

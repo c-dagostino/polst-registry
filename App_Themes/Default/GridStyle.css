@@ -1,0 +1,40 @@
+﻿
+.GridHeader
+{
+	background:url(images/rootBackground.gif) repeat-x #f1f2f4;
+	border-bottom:1px solid #d5d5d5;
+	padding: 6px 1px 6px 10px;
+	text-align:left;
+	color: #f3f3f3;
+	height: 15px;
+	line-height: 15px;
+}
+
+#GridContainer th
+{
+    clear: both;
+    background-color: transparent;
+    font-size: 11px;
+    height: 17px;
+    line-height: 17px;
+    padding: 0 0 0 10px;
+    margin: 0;
+    vertical-align: middle;
+    
+ 
+    
+}
+
+
+
+.GridAltRow
+{
+	background-color:	#d5dbe9;
+	padding: 3px;
+}
+
+.GridRow
+{
+	padding:3px;
+	
+}

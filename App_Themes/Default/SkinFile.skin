@@ -1,0 +1,41 @@
+<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+
+ <asp:RequiredFieldValidator skinID="requiredval" runat=server ForeColor="Red"></asp:RequiredFieldValidator>
+ <asp:RangeValidator skinID="rangeval" runat=server ForeColor="Red"></asp:RangeValidator>
+ 
+ <asp:Panel skinID="pnlForm" runat="server"  BorderStyle="Solid" BorderWidth="1px" BorderColor="#999999" style="padding-top:0px;padding-bottom:10px"  BackColor="#F9F9F9"></asp:Panel>
+ 
+ 
+ 
+ <asp:GridView skinID="gvwDefault" runat="server" EmptyDataText="There are no records to display." RowStyle-HorizontalAlign="left"  CellPadding="2" ForeColor="Black" GridLines="None" Width="715px" BackColor="#f9f9f9" BorderColor="#999999" BorderWidth="1px" AllowSorting="True" Font-Size="11px" AutoGenerateColumns="False" allowPaging="True" PageSise="15">
+   <FooterStyle BackColor="#ccccff" />
+        <SelectedRowStyle cssClass="GridRow"  />
+        <PagerStyle BackColor="#cdffcc"  HorizontalAlign="Center" />
+        <HeaderStyle  cssClass="GridHeader" />
+        <AlternatingRowStyle cssClass="GridAltRow"/>
+ </asp:GridView>
+ 
+ <asp:GridView skinID="gvwForm" runat="server" EmptyDataText="There are no records to display." RowStyle-HorizontalAlign="left"  CellPadding="2" ForeColor="Black" GridLines="None" Width="400px" BackColor="#f9f9f9" BorderColor="#999999" BorderWidth="1px" AllowSorting="True" Font-Size="11px" AutoGenerateColumns="False" allowPaging="True" PageSise="15">
+   <FooterStyle BackColor="#ccccff" />
+      <SelectedRowStyle cssClass="GridRow"  />
+        <PagerStyle BackColor="#cdffcc"  HorizontalAlign="Center" />
+        <HeaderStyle  cssClass="GridHeader" />
+        <AlternatingRowStyle cssClass="GridAltRow"/>
+        
+ </asp:GridView>
+ 
